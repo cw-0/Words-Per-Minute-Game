@@ -80,8 +80,8 @@ class WPM:
 
     def start_counter(self):
         while not self.done:
-            time.sleep(.01)
-            self.count += .01
+            time.sleep(.001)
+            self.count += .001
 
     def give_phrase(self):
         self.current_phrase = random.choice(self.phrases[self.difficulty])
